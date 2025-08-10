@@ -86,7 +86,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-blue-900 mb-4">Education</h2>
-            <p className="text-xl text-gray-600">My academic journey and qualifications</p>
+            <p className="text-xl text-gray-600">My academic journey </p>
           </div>
 
           <div className="max-w-4xl mx-auto">
