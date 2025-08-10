@@ -43,7 +43,7 @@ function App() {
     <div className="max-w-full mx-auto">
       <div className="flex flex-col lg:flex-row items-center justify-center gap-16">
         <img 
-          src="./public/maramm.jpg" 
+          src='/maramm.jpg'
           alt="Maram Cheikh" 
           className="w-64 h-64 rounded-xl object-cover shadow-2xl transition-transform duration-500 hover:scale-105"
         />
@@ -67,8 +67,8 @@ function App() {
 
           <div className="flex justify-center lg:justify-start">
             <a 
-              href="/cv.pdf" 
-              download="Maram_Cheikh_CV.pdf"
+              href="/MARAM.pdf" 
+              download="MARAM CV.pdf"
               className="bg-sky-500 hover:bg-sky-600 text-white px-6 py-3 rounded-full font-semibold shadow-md transition-all duration-300 inline-block"
             >
               Download CV
@@ -164,7 +164,7 @@ function App() {
                     Programming and Software development
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    {['Python', 'Embedded C', 'React JS', 'VHDL', 'SQL', 'GitHub','YOLOv8','OpenCV'].map((skill) => (
+                    {['Python', 'Embedded C', 'React JS', 'VHDL', 'SQL', 'GitHub','YOLOv8','OpenCV','OpenThread'].map((skill) => (
                       <span key={skill} className="bg-sky-100 text-sky-800 px-3 py-1 rounded-full text-sm font-medium">
                         {skill}
                       </span>
@@ -427,7 +427,7 @@ function App() {
                 company: 'Grenoble,France "CIME-NANOTECH and ST Crolles Clean Rooms , CEA-Leti, LTM, Labex Microelectronics"',
                 duration: 'July 2025',
                 description: 'Visit to ST-Crolles(Clean Room), CEA-Leti, LTM, and Labex Microelectronics and practical work in the CIME-NANOTECH Clean Room',
-                learnings: ['fabrication', 'conception', 'clean room']
+                learnings: ['Circuit design and routing using Cadence software', 'Practical insights from cleanroom visits at ST Crolles and CEA-Leti', 'Complete semiconductor device fabrication and photolithography at CEA-Leti cleanroom']
               },
               {
                 id: 3,
