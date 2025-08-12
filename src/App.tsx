@@ -179,7 +179,7 @@ function App() {
                     Embedded Systems & Electronics
                   </h4>
                   <div className="flex flex-wrap gap-2">
-                    {['STM32', 'ESP32', 'Raspberry Pi', 'Microelectronics', 'Robotics'].map((skill) => (
+                    {['STM32', 'ESP32', 'Raspberry Pi', 'Microelectronics', 'Robotics','Nrf52840 dongle'].map((skill) => (
                       <span key={skill} className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-medium">
                         {skill}
                       </span>
