@@ -67,8 +67,8 @@ function App() {
 
           <div className="flex justify-center lg:justify-start">
             <a 
-              href="/MARAM.pdf" 
-              download="MARAM CV.pdf"
+              href="/CV maram_cheikh.pdf" 
+              download="CV Maram Cheikh.pdf"
               className="bg-sky-500 hover:bg-sky-600 text-white px-6 py-3 rounded-full font-semibold shadow-md transition-all duration-300 inline-block"
             >
               Download CV
@@ -302,7 +302,7 @@ function App() {
               { 
                 id: 4, 
                 title: 'Autonomous robot', 
-                images: ['/auto2.jpg', '/auto3.jpg'], 
+                images: ['/auto3.jpg', '/auto2.jpg'], 
                 skills: ['Autonomous Navigation', 'Embedded Systems & Programming', ' Testing & Optimization'],
                 description: 'Development of an autonomous robot capable of navigating its environment, identifying and puncturing balloons, and distinguishing cubes based on their color. Using sensor input and computer vision, the robot makes real-time decisions to move toward targets, perform tasks'
               },
