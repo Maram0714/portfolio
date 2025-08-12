@@ -302,7 +302,7 @@ function App() {
               { 
                 id: 4, 
                 title: 'Autonomous robot', 
-                images: ['/project4_1.jpg', '/project4_2.jpg'], 
+                images: ['/auto2.jpg', '/auto3.jpg'], 
                 skills: ['Autonomous Navigation', 'Embedded Systems & Programming', ' Testing & Optimization'],
                 description: 'Development of an autonomous robot capable of navigating its environment, identifying and puncturing balloons, and distinguishing cubes based on their color. Using sensor input and computer vision, the robot makes real-time decisions to move toward targets, perform tasks'
               },
