@@ -488,7 +488,7 @@ function App() {
               <Mail className="w-8 h-8 mx-auto mb-3 group-hover:scale-110 transition-transform" />
               <p className="font-semibold mb-1">Email</p>
               <p className="text-sm text-sky-100 text-center leading-tight">
-                maram.cheikh@<br />insat.ucar.tn
+                maram.cheikh1407@<br />gmail.com
               </p>
             </a>
             
