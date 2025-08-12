@@ -304,7 +304,7 @@ function App() {
                 title: 'Autonomous robot', 
                 images: ['/auto3.jpg', '/auto2.jpg'], 
                 skills: ['Autonomous Navigation', 'Embedded Systems & Programming', ' Testing & Optimization'],
-                description: 'Development of an autonomous robot capable of navigating its environment, identifying and puncturing balloons, and distinguishing cubes based on their color. Using sensor input and computer vision, the robot makes real-time decisions to move toward targets, perform tasks'
+                description: 'Development of an autonomous robot capable of navigating its environment, identifying and puncturing balloons, and distinguishing cubes based on their color. Using sensor input and computer vision, the robot makes real-time decisions to move toward targets'
               },
               { 
                 id: 5, 
@@ -324,8 +324,8 @@ function App() {
                 id: 7, 
                 title: 'Matter over Thread ecosystem', 
                 images: ['/project7_1.jpg'], 
-                skills: ['VHDL', 'FPGA', 'Digital'],
-                description: '...'
+                skills: ['Raspberry pi', 'Nrf dongle', 'implementing the Thread protocol','Managing network setup in an IoT environment.'],
+                description: 'Development of a Border Router based on a Raspberry Pi using an nRF dongle, integrating the Matter ecosystem and the Thread protocol, to facilitate communication between connected devices within a network.'
               }
             ].map((project) => (
               <div key={project.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
@@ -418,8 +418,8 @@ function App() {
                 title: 'Summer Internship',
                 company: 'SOFIATECH',
                 duration: 'July 2025 - August 2025',
-                description: 'Development of a Matter over Thread Ecosystem using Raspberry pi to build a Border Router',
-                learnings: ['Rasp', 'Protocol implementation', 'Network configuration']
+                description: 'Development of a Matter over Thread Ecosystem using Raspberry pi and an nrf dongle to build a Border Router facilating communication between connected devices within a network.',
+                learnings: ['Raspberry pi', 'build an IoT project on Ubuntu.', 'nRF dongle hardware for wireless communication']
               },
               {
                 id: 2,
@@ -435,7 +435,7 @@ function App() {
                 company: 'SOFIATECH',
                 duration: 'July 2024',
                 description: 'Development of an IoT solution for automating a garage door using the MATTER protocol on Ubuntu',
-                learnings: ['Matter protocol', 'Smart automation', 'System integration']
+                learnings: ['Matter protocol', 'Smart automation', 'developing IoT applications on Ubuntu.']
               },
               {
                 id: 4,
