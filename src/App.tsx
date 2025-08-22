@@ -67,8 +67,8 @@ function App() {
 
           <div className="flex justify-center lg:justify-start">
             <a 
-              href="/CV maram_cheikh.pdf" 
-              download="CV Maram Cheikh.pdf"
+              href="/Maram Cheikh CV.pdf" 
+              download="Maram Cheikh CV.pdf"
               className="bg-sky-500 hover:bg-sky-600 text-white px-6 py-3 rounded-full font-semibold shadow-md transition-all duration-300 inline-block"
             >
               Download CV
@@ -323,9 +323,9 @@ function App() {
               { 
                 id: 7, 
                 title: 'Matter over Thread ecosystem', 
-                images: ['/project7_1.jpg'], 
-                skills: ['Raspberry pi', 'Nrf dongle', 'implementing the Thread protocol','Managing network setup in an IoT environment.'],
-                description: 'Development of a Border Router based on a Raspberry Pi using an nRF dongle, integrating the Matter ecosystem and the Thread protocol, to facilitate communication between connected devices within a network.'
+                images: ['/imgg2.jpg','/imgg4.jpg','/imgg1.png','img3.png'], 
+                skills: ['Raspberry pi', 'Nrf52840 dongle', 'Integration of Border Router into Home Assistant','Commissioning Matter devices via the Border Router'],
+                description: 'Development of a Border Router based on a Raspberry Pi using an nRF dongle, integrating the Matter ecosystem and the Thread protocol to facilitate communication between connected devices within a network. This also included the integration of my Border Router into Home Assistant and the commissioning of a Matter device, specifically an ESP32-H2 running the light example'
               }
             ].map((project) => (
               <div key={project.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
@@ -418,8 +418,8 @@ function App() {
                 title: 'Summer Internship',
                 company: 'SOFIATECH',
                 duration: 'July 2025 - August 2025',
-                description: 'Development of a Matter over Thread Ecosystem using Raspberry pi and an nrf dongle to build a Border Router facilating communication between connected devices within a network.',
-                learnings: ['Raspberry pi', 'build an IoT project on Ubuntu.', 'nRF dongle hardware for wireless communication']
+                description: 'Development of a Matter-over-Thread ecosystem using a Raspberry Pi and an nRF dongle to implement a Border Router, enabling seamless communication between connected devices within the network. This also included integrating the Border Router into Home Assistant and commissioning a Matter device, specifically an ESP32-H2 running the light example',
+                learnings: ['Raspberry pi and nrf52840 dongle', 'Understanding of Thread networking basics', 'Troubleshooting connectivity issues in smart home systems']
               },
               {
                 id: 2,
