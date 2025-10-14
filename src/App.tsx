@@ -245,7 +245,8 @@ function App() {
                 { id: 4, name: 'Large Language Model– NVIDIA', image: '/NVIDEA.jpg' },
                 { id: 5, name: ' ROSfor Beginners: Basics, Motion, and OpenCV– Udemy', image: '/ROS Certif.jpg' },
                 { id: 6, name: 'National Re-Tech Fusion Hackathon', image: '/NRTF.jpg' },
-                { id: 7, name: 'AI Fundamentals', image: '/ai.jpg' }
+                { id: 7, name: 'AI Fundamentals', image: '/ai.jpg' },
+                { id: 8, name: 'GALACTIC PROBLEM SOLVER( NASA Space Apps Challenge )', image: '/NASA.jpg' }
               ].map((cert) => (
                 <div key={cert.id} className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
                   <div className="h-32 rounded-lg mb-4 overflow-hidden cursor-pointer">
@@ -295,7 +296,7 @@ function App() {
               { 
                 id: 3, 
                 title: 'Smart glasses for visually impaired individuals', 
-                images: ['/comp visi2.png', '/compvisi.png'], 
+                images: ['/glasses.png', '/compvisi.png'], 
                 skills: ['OpenCV', 'YOLOv8', 'Sensors'],
                 description: 'Research and development of smart glasses aimed at supporting visually impaired individuals through computer vision for real-time perception of their surroundings'
               },
@@ -326,6 +327,13 @@ function App() {
                 images: ['/imgg2.jpg','/imgg4.jpg','/imgg1.png','img3.png'], 
                 skills: ['Raspberry pi', 'Nrf52840 dongle', 'Integration of Border Router into Home Assistant','Commissioning Matter devices via the Border Router'],
                 description: 'Development of a Border Router based on a Raspberry Pi using an nRF dongle, integrating the Matter ecosystem and the Thread protocol to facilitate communication between connected devices within a network. This also included the integration of my Border Router into Home Assistant and the commissioning of a Matter device, specifically an ESP32-H2 running the light example'
+              },
+              { 
+                id: 8, 
+                title: 'Bee Green: IoT & AI Platform for Sustainable Beehives', 
+                images: ['/crop2.png','/crop1.png'], 
+                skills: ['scikit-learn', 'Flask', 'joblib','esp32'],
+                description: 'Developed a system for beehive monitoring with thermal and smoke sensors, AI-based intrusion detection, real-time alerts, and soil analysis for sustainable plant recommendations.'
               }
             ].map((project) => (
               <div key={project.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
